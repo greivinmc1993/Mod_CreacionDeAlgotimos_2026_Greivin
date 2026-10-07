@@ -1,0 +1,8 @@
+#IGNORA CIERTOS ARCHIVOS Y CARPETAS
+*.zip
+*.tar.gz
+*.rar
+*.7z
+*.exe
+# Ignora archivos de configuración del sistema
+.DS_Store

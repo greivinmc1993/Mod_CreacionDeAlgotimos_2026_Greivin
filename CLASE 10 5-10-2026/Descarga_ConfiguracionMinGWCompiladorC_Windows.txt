@@ -1,0 +1,30 @@
+
+Página descarga Compilador para C/C++ Min-GW
+
+https://sourceforge.net/projects/mingw-w64/
+
+
+Guía de instalación 
+https://onecompiler.com/posts/3yzjjq7xk/gu-a-de-instalaci-n-de-mingw-y-el-compilador-gnu-gcc
+
+Guia instalación youtube:
+https://www.youtube.com/watch?v=MwJoIz4pqN8
+
+
+Configuración:
+
+Windows
+Config. VariablesEntorno_Windows: Variables de entorno: Path/editar/nueva y agregar la ruta: c:\MinGW\bin
+
+VS Code
+En VS Code: Descargar las extensiones: C/C++ de Microsoft v1.21.6  y C/C++ Code Runner v011.3 Jun Han
+
+Para poder correr los programas en la terminal
+
+Configuración - Settings - Open Settings (JSON). Arriba-Derecha:
+
+"code-runner.runInTerminal": true,
+
+"code-runner.saveFileBeforeRun": true
+
+
