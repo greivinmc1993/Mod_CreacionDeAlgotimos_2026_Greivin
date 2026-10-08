@@ -19,8 +19,8 @@ int main(void){
 
     perimetro = 2 * PI * radio;
 
-    printf("El área del circulo es: %f%s \n", area, UNIDAD);
-    printf("El perimetro del circulo es: %f%s", perimetro, UNIDAD);
+    printf("El área del circulo es: %3.2f%s \n", area, UNIDAD);
+    printf("El perimetro del circulo es: %3.2f%s", perimetro, UNIDAD);
 
 
     return 0;
