@@ -2,9 +2,9 @@
 
 #include <stdio.h>
 
-const FACTOR_CELSIUS = 9/5;
-const FACTOR_FAHRENHEIT = 5/9;
-const AJUSTE = 32;
+const double FACTOR_CELSIUS = 9/5;
+const double FACTOR_FAHRENHEIT = 5/9;
+const double AJUSTE = 32;
 
 int opcion;
 double tempertura, resultado;
@@ -23,8 +23,10 @@ int main(void){
     switch (opcion)
     {
     case 1:
+        printf("INGRESE LA TEMP EN CELSIUS\n");
+        scanf("%lf", &tempertura);
         resultado = (tempertura * FACTOR_CELSIUS) +32;
-        printf("La temperatura en F es: %f", resultado);
+        printf("La temperatura en F es: %.2f", resultado);
         break;
     
     default:
