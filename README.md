@@ -1,70 +1,84 @@
 <div align="center">
 
-# 📘 Portafolio de Evidencias
+<h1>📘 Portafolio de Evidencias</h1>
 
-### Nombre Completo de la Persona Estudiante
+<h3>Nombre Completo de la Persona Estudiante</h3>
 
-**CSTI12010 · Diseño de algoritmos** · Instituto Nacional de Aprendizaje
+<p><strong>CSTI12010 · Diseño de algoritmos</strong> · Instituto Nacional de Aprendizaje</p>
 
-Facilitador: Giovanni Antonio Coto Calderón · Grupo _(número)_ · 2026
+<p>Facilitador: Giovanni Antonio Coto Calderón · Grupo <em>(número)</em> · 2026</p>
 
-![PSeInt](https://img.shields.io/badge/PSeInt-Estricto-2E7D32)
-![C](https://img.shields.io/badge/C-C11-A8B9CC?logo=c&logoColor=white)
-![GCC](https://img.shields.io/badge/GCC-MSYS2-A42E2B?logo=gnu&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)
+<p>
+  <img src="https://img.shields.io/badge/PSeInt-Estricto-2E7D32" alt="PSeInt">
+  <img src="https://img.shields.io/badge/C-C11-A8B9CC?logo=c&amp;logoColor=white" alt="C">
+  <img src="https://img.shields.io/badge/GCC-MSYS2-A42E2B?logo=gnu&amp;logoColor=white" alt="GCC">
+  <img src="https://img.shields.io/badge/Git-F05032?logo=git&amp;logoColor=white" alt="Git">
+  <img src="https://img.shields.io/badge/GitHub-181717?logo=github&amp;logoColor=white" alt="GitHub">
+</p>
 
 </div>
 
----
+<hr>
 
-## 📖 Sobre este portafolio
+<h2>📖 Sobre este portafolio</h2>
 
-Este repositorio reúne el trabajo que realizo en el módulo **Diseño de algoritmos**:
-primero los algoritmos en **PSeInt** (UA1) y después su traducción y desarrollo en
-**lenguaje C** (UA2 y UA3). Cada sesión tiene su carpeta con los archivos de trabajo y
-un `README.md` con la prueba de ejecución, lo que aprendí y mi autoevaluación.
+<p>Este repositorio reúne el trabajo que realizo en el módulo <strong>Diseño de algoritmos</strong>: primero los algoritmos en <strong>PSeInt</strong> (UA1) y después su traducción y desarrollo en <strong>lenguaje C</strong> (UA2 y UA3). Cada sesión tiene su carpeta con los archivos de trabajo y un <code>README.md</code> con la prueba de ejecución, lo que aprendí y mi autoevaluación.</p>
 
-> **Recorrido sugerido:** revisar la bitácora para ver el trabajo más reciente, luego el
-> registro de evidencias por unidad y abrir el enlace de las sesiones que interesen.
+<blockquote>
+  <p><strong>Recorrido sugerido:</strong> revisar la bitácora para ver el trabajo más reciente, luego el registro de evidencias por unidad y abrir el enlace de las sesiones que interesen.</p>
+</blockquote>
 
-**Estado de cada sesión:** ⬜ Pendiente · 🟡 En proceso · ✅ Completa
+<p><strong>Estado de cada sesión:</strong> ⬜ Pendiente · 🟡 En proceso · ✅ Completa</p>
 
----
+<hr>
 
-## 🗓 Bitácora diaria
+<h2>🗓 Bitácora diaria</h2>
 
-Una fila por día de clase, **la más reciente arriba**. Se completa al final de la jornada,
-antes del último `git push`.
+<p>Una fila por día de clase, <strong>la más reciente arriba</strong>. Se completa al final de la jornada, antes del último <code>git push</code>.</p>
 
-| Fecha | Sesión | Qué hice hoy                                       | Pendiente para la próxima   |
-| :---: | :----: | :------------------------------------------------- | :-------------------------- |
-| dd/mm |  S18   | _(ej.: traduje Aprobacion y CajeroAutomatico a C)_ | _(ej.: terminar credito.c)_ |
-| dd/mm |  S17   |                                                    |                             |
+<table>
+  <thead>
+    <tr>
+      <th align="center">Fecha</th>
+      <th align="center">Sesión</th>
+      <th>Qué hice hoy</th>
+      <th>Pendiente para la próxima</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center">dd/mm</td>
+      <td align="center">S18</td>
+      <td>_(ej.: traduje Aprobacion y CajeroAutomatico a C)_</td>
+      <td>_(ej.: terminar credito.c)_</td>
+    </tr>
+    <tr>
+      <td align="center">dd/mm</td>
+      <td align="center">S17</td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
 <details>
-<summary><b>Rutina de cada día</b></summary>
+  <summary><strong>Rutina de cada día</strong></summary>
 
-```bash
-git pull                                   # 1. traer lo más reciente
+  <pre><code>git pull                                   # 1. traer lo más reciente
 # 2. trabajar en la carpeta de la sesión (UA2/S18/...) y completar su README.md
 git status                                 # 3. revisar qué cambió
 git add .                                  # 4. preparar los cambios
 git commit -m "S18: agrega credito.c"      # 5. registrar con el formato SXX: verbo + qué
-git push                                   # 6. subir a GitHub
-```
+git push                                   # 6. subir a GitHub</code></pre>
 
-Antes del último `push` del día: agregar la fila de la bitácora y actualizar el estado
-de la sesión en el registro de evidencias.
-
+  <p>Antes del último <code>push</code> del día: agregar la fila de la bitácora y actualizar el estado de la sesión en el registro de evidencias.</p>
 </details>
 
----
+<hr>
 
-## 📁 Estructura del repositorio
+<h2>📁 Estructura del repositorio</h2>
 
-```
-CSTI12010-2026-nombre-apellido/
+<pre><code>CSTI12010-2026-nombre-apellido/
 ├── README.md                ← este archivo (presentación, bitácora y registro)
 ├── UA1/S01 … S12/           ← algoritmos en PSeInt (.psc), una carpeta por sesión
 ├── UA2/S14 … S22/           ← programas en C (.c), una carpeta por sesión
@@ -72,145 +86,127 @@ CSTI12010-2026-nombre-apellido/
 ├── actividades/             ← actividades de comprobación A1, A2 y A3
 └── docs/
     ├── CONVENCIONES.md      ← nombres, commits, ramas y entregas
-    └── PLANTILLA_SESION.md  ← modelo del README de cada sesión
-```
+    └── PLANTILLA_SESION.md  ← modelo del README de cada sesión</code></pre>
 
-Las capturas de pantalla van en la subcarpeta `capturas/` de cada sesión
-(por ejemplo `UA2/S17/capturas/factura.png`).
+<p>Las capturas de pantalla van en la subcarpeta <code>capturas/</code> de cada sesión (por ejemplo <code>UA2/S17/capturas/factura.png</code>).</p>
 
----
+<hr>
 
-## 📋 Registro de evidencias
+<h2>📋 Registro de evidencias</h2>
 
 <details>
-<summary><b>Unidad 1 · Elaboración de algoritmos en PSeInt</b> (sesiones 1 a 13)</summary>
+  <summary><strong>Unidad 1 · Elaboración de algoritmos en PSeInt</strong> (sesiones 1 a 13)</summary>
 
-| Sesión | Tema                                              | Qué aprendí                            |                Evidencia                 | Estado |
-| :----: | :------------------------------------------------ | :------------------------------------- | :--------------------------------------: | :----: |
-|  S01   | Lógica computacional, compilador e intérprete     | _(escribir aquí con palabras propias)_ |             [ver](UA1/S01/)              |   ✅   |
-|  S02   | Algoritmos y pseudocódigo                         |                                        |             [ver](UA1/S02/)              |   ⬜   |
-|  S03   | Lenguajes de alto y bajo nivel                    |                                        |             [ver](UA1/S03/)              |   ⬜   |
-|  S04   | Metodología de solución de problemas              |                                        |             [ver](UA1/S04/)              |   ⬜   |
-|  S05   | Entrada, proceso, salida y tipos de datos         |                                        |             [ver](UA1/S05/)              |   ⬜   |
-|  S06   | Constantes, variables y expresiones               |                                        |             [ver](UA1/S06/)              |   ⬜   |
-|  S07   | Contadores y acumuladores                         |                                        |             [ver](UA1/S07/)              |   ⬜   |
-|  S08   | Expresiones aritméticas, relacionales y lógicas   |                                        |             [ver](UA1/S08/)              |   ⬜   |
-|  S09   | Operadores aritméticos y prioridad                |                                        |             [ver](UA1/S09/)              |   ⬜   |
-|  S10   | Decisión simple y doble                           |                                        |             [ver](UA1/S10/)              |   ⬜   |
-|  S11   | Operadores lógicos, decisiones compuestas y Según |                                        |             [ver](UA1/S11/)              |   ⬜   |
-|  S12   | Ciclos, validación de datos e informe             |                                        |             [ver](UA1/S12/)              |   ⬜   |
-|  S13   | **Actividad de comprobación 1**                   |                                        | [ver](actividades/A1_Analisis_problema/) |   ⬜   |
-
+  <table>
+    <thead>
+      <tr>
+        <th align="center">Sesión</th>
+        <th>Tema</th>
+        <th>Qué aprendí</th>
+        <th align="center">Evidencia</th>
+        <th align="center">Estado</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td align="center">S01</td>
+        <td>Lógica computacional, compilador e intérprete</td>
+        <td>_(escribir aquí con palabras propias)_</td>
+        <td align="center"><a href="UA1/S01/">ver</a></td>
+        <td align="center">✅</td>
+      </tr>
+      <tr><td align="center">S02</td><td>Algoritmos y pseudocódigo</td><td></td><td align="center"><a href="UA1/S02/">ver</a></td><td align="center">⬜</td></tr>
+      <tr><td align="center">S03</td><td>Lenguajes de alto y bajo nivel</td><td></td><td align="center"><a href="UA1/S03/">ver</a></td><td align="center">⬜</td></tr>
+      <tr><td align="center">S04</td><td>Metodología de solución de problemas</td><td></td><td align="center"><a href="UA1/S04/">ver</a></td><td align="center">⬜</td></tr>
+      <tr><td align="center">S05</td><td>Entrada, proceso, salida y tipos de datos</td><td></td><td align="center"><a href="UA1/S05/">ver</a></td><td align="center">⬜</td></tr>
+      <tr><td align="center">S06</td><td>Constantes, variables y expresiones</td><td></td><td align="center"><a href="UA1/S06/">ver</a></td><td align="center">⬜</td></tr>
+      <tr><td align="center">S07</td><td>Contadores y acumuladores</td><td></td><td align="center"><a href="UA1/S07/">ver</a></td><td align="center">⬜</td></tr>
+      <tr><td align="center">S08</td><td>Expresiones aritméticas, relacionales y lógicas</td><td></td><td align="center"><a href="UA1/S08/">ver</a></td><td align="center">⬜</td></tr>
+      <tr><td align="center">S09</td><td>Operadores aritméticos y prioridad</td><td></td><td align="center"><a href="UA1/S09/">ver</a></td><td align="center">⬜</td></tr>
+      <tr><td align="center">S10</td><td>Decisión simple y doble</td><td></td><td align="center"><a href="UA1/S10/">ver</a></td><td align="center">⬜</td></tr>
+      <tr><td align="center">S11</td><td>Operadores lógicos, decisiones compuestas y Según</td><td></td><td align="center"><a href="UA1/S11/">ver</a></td><td align="center">⬜</td></tr>
+      <tr><td align="center">S12</td><td>Ciclos, validación de datos e informe</td><td></td><td align="center"><a href="UA1/S12/">ver</a></td><td align="center">⬜</td></tr>
+      <tr><td align="center">S13</td><td><strong>Actividad de comprobación 1</strong></td><td></td><td align="center"><a href="actividades/A1_Analisis_problema/">ver</a></td><td align="center">⬜</td></tr>
+    </tbody>
+  </table>
 </details>
 
 <details open>
-<summary><b>Unidad 2 · Programación estructurada en C</b> (sesiones 14 a 24)</summary>
+  <summary><strong>Unidad 2 · Programación estructurada en C</strong> (sesiones 14 a 24)</summary>
 
-| Sesión  | Tema                                         | Qué aprendí |                  Evidencia                   | Estado |
-| :-----: | :------------------------------------------- | :---------- | :------------------------------------------: | :----: |
-|   S14   | Sistemas numéricos                           |comprender y utilizar los sistemas numéricos en C, aprendiendo a representar y convertir valores entre sistemas decimal, binario, octal y hexadecimal mediante ejercicios prácticos de programación.             |               [ver](UA2/S15-6-10-2026/DecimalABinario.c)                |   ✅   |
-|   S15   | Control de versiones con git y GitHub        |             |               [ver](UA2/S15/)                |   ⬜   |
-|   S16   | Formato de un programa en C y compilación    |             |               [ver](UA2/S16/)                |   ⬜   |
-|   S17   | Variables, constantes y entrada/salida       |             |               [ver](UA2/S17/)                |   ⬜   |
-|   S18   | Operadores, casting e if … else              |             |               [ver](UA2/S18/)                |   ⬜   |
-|   S19   | Ciclos y switch                              |             |               [ver](UA2/S19/)                |   ⬜   |
-|   S20   | Arreglos, matrices y cadenas                 |             |               [ver](UA2/S20/)                |   ⬜   |
-|   S21   | Funciones                                    |             |               [ver](UA2/S21/)                |   ⬜   |
-|   S22   | Paso de parámetros por valor y por dirección |             |               [ver](UA2/S22/)                |   ⬜   |
-| S23–S24 | **Actividad de comprobación 2**              |             | [ver](actividades/A2_Mi_primera_aplicacion/) |   ⬜   |
-
+  <table>
+    <thead>
+      <tr>
+        <th align="center">Sesión</th>
+        <th>Tema</th>
+        <th>Qué aprendí</th>
+        <th align="center">Evidencia</th>
+        <th align="center">Estado</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td align="center">S14</td>
+        <td>Sistemas numéricos</td>
+        <td>comprender y utilizar los sistemas numéricos en C, aprendiendo a representar y convertir valores entre sistemas decimal, binario, octal y hexadecimal mediante ejercicios prácticos de programación.</td>
+        <td align="center"><a href="UA2/S15-6-10-2026/DecimalABinario.c">ver</a></td>
+        <td align="center">✅</td></tr>
+      <tr><td align="center">S15</td><td>Control de versiones con git y GitHub</td><td></td><td align="center"><a href="UA2/S15/">ver</a></td><td align="center">⬜</td></tr>
+      <tr><td align="center">S16</td><td>Formato de un programa en C y compilación</td><td></td><td align="center"><a href="UA2/S16/">ver</a></td><td align="center">⬜</td></tr>
+      <tr><td align="center">S17</td><td>Variables, constantes y entrada/salida</td><td></td><td align="center"><a href="UA2/S17/">ver</a></td><td align="center">⬜</td></tr>
+      <tr><td align="center">S18</td><td>Operadores, casting e if … else</td><td></td><td align="center"><a href="UA2/S18/">ver</a></td><td align="center">⬜</td></tr>
+      <tr><td align="center">S19</td><td>Ciclos y switch</td><td></td><td align="center"><a href="UA2/S19/">ver</a></td><td align="center">⬜</td></tr>
+      <tr><td align="center">S20</td><td>Arreglos, matrices y cadenas</td><td></td><td align="center"><a href="UA2/S20/">ver</a></td><td align="center">⬜</td></tr>
+      <tr><td align="center">S21</td><td>Funciones</td><td></td><td align="center"><a href="UA2/S21/">ver</a></td><td align="center">⬜</td></tr>
+      <tr><td align="center">S22</td><td>Paso de parámetros por valor y por dirección</td><td></td><td align="center"><a href="UA2/S22/">ver</a></td><td align="center">⬜</td></tr>
+      <tr><td align="center">S23–S24</td><td><strong>Actividad de comprobación 2</strong></td><td></td><td align="center"><a href="actividades/A2_Mi_primera_aplicacion/">ver</a></td><td align="center">⬜</td></tr>
+    </tbody>
+  </table>
 </details>
 
 <details>
-<summary><b>Unidad 3 · Estructuras de datos</b></summary>
+  <summary><strong>Unidad 3 · Estructuras de datos</strong></summary>
 
-| Sesión | Tema                                       | Qué aprendí | Evidencia | Estado |
-| :----: | :----------------------------------------- | :---------- | :-------: | :----: |
-|        | _(las filas se agregan al iniciar la UA3)_ |             |           |        |
-
+  <table>
+    <thead>
+      <tr>
+        <th align="center">Sesión</th>
+        <th>Tema</th>
+        <th>Qué aprendí</th>
+        <th align="center">Evidencia</th>
+        <th align="center">Estado</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td></td><td>_(las filas se agregan al iniciar la UA3)_</td><td></td><td></td><td></td></tr>
+    </tbody>
+  </table>
 </details>
 
----
+<hr>
 
-## 🏁 Actividades de comprobación
+<h2>🏁 Actividades de comprobación</h2>
 
-| Actividad                                          | Carpeta                                       | Versión evaluada (etiqueta) | Resultado |
-| :------------------------------------------------- | :-------------------------------------------- | :-------------------------: | :-------: |
-| A1 · Análisis y solución de un problema específico | [ver](actividades/A1_Analisis_problema/)      |              —              |           |
-| A2 · Mi primera aplicación                         | [ver](actividades/A2_Mi_primera_aplicacion/)  |     `A2-oportunidad-1`      |           |
-| A3 · Sistema con almacenamiento de datos           | [ver](actividades/A3_Sistema_almacenamiento/) |     `A3-oportunidad-1`      |           |
+<table>
+  <thead>
+    <tr>
+      <th>Actividad</th>
+      <th>Carpeta</th>
+      <th align="center">Versión evaluada (etiqueta)</th>
+      <th align="center">Resultado</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>A1 · Análisis y solución de un problema específico</td><td><a href="actividades/A1_Analisis_problema/">ver</a></td><td align="center">—</td><td></td></tr>
+    <tr><td>A2 · Mi primera aplicación</td><td><a href="actividades/A2_Mi_primera_aplicacion/">ver</a></td><td align="center"><code>A2-oportunidad-1</code></td><td></td></tr>
+    <tr><td>A3 · Sistema con almacenamiento de datos</td><td><a href="actividades/A3_Sistema_almacenamiento/">ver</a></td><td align="center"><code>A3-oportunidad-1</code></td><td></td></tr>
+  </tbody>
+</table>
 
-La persona facilitadora crea la etiqueta al cierre de cada actividad; el resultado se anota
-cuando se comunica.
+<p>La persona facilitadora crea la etiqueta al cierre de cada actividad; el resultado se anota cuando se comunica.</p>
 
----
+<hr>
 
-## 🖼 Galería de ejecuciones
+<h2>🖼 Galería de ejecuciones</h2>
 
-_(Sustituir por capturas propias. Se recomienda incluir de tres a seis imágenes
-representativas: un algoritmo en PSeInt y varios programas en C funcionando.)_
-
-<p align="center">
-  <img src="UA2/S18/capturas/credito.png" width="600" alt="Ejecución de credito.c en la terminal de VS Code">
-</p>
-
-<div align="center"><i>credito.c (sesión 18): decisión con &&, || y ! en C.</i></div>
-
-### El mismo algoritmo en dos lenguajes
-
-|                                    PSeInt (UA1)                                    |                                     C (UA2)                                     |
-| :--------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------: |
-| <img src="UA1/S10/capturas/aprobacion.png" width="320" alt="Aprobacion en PSeInt"> | <img src="UA2/S18/capturas/aprobacion.png" width="320" alt="aprobacion.c en C"> |
-
----
-
-## 🧠 Decisiones de diseño documentadas
-
-_(Completar conforme avanza el módulo. Ejemplos de lo que corresponde anotar aquí.)_
-
-| Decisión                                    | Qué elegí | Por qué |
-| :------------------------------------------ | :-------- | :------ |
-| Tipo de dato para montos de dinero          |           |         |
-| Cómo valido los datos de entrada            |           |         |
-| Cuándo uso `if … else if` y cuándo `switch` |           |         |
-| Cuándo divido el programa en funciones      |           |         |
-
----
-
-## 💭 Reflexión por unidad
-
-| Unidad | Lo más importante que aprendí | Lo que más me costó y cómo lo superé |
-| :----: | :---------------------------- | :----------------------------------- |
-|  UA1   |                               |                                      |
-|  UA2   |                               |                                      |
-|  UA3   |                               |                                      |
-
-**Reflexión final** _(escribir al cerrar el módulo; tres preguntas para orientarla):_
-
-1. ¿Qué sé hacer hoy que no sabía el primer día?
-2. Comparando un algoritmo en PSeInt con el mismo programa en C: ¿qué cambió en la
-   forma de escribirlo y qué se mantuvo igual en la lógica?
-3. ¿Qué me propongo seguir aprendiendo por mi cuenta?
-
----
-
-## 🛠 Herramientas empleadas
-
-- **Pseudocódigo y diagramas:** PSeInt con el perfil Estricto
-- **Lenguaje:** C (estándar C11)
-- **Compilador:** gcc de MSYS2 (UCRT64), compilando con `gcc -Wall`
-- **Editor:** Visual Studio Code con la extensión C/C++
-- **Terminal:** Git Bash
-- **Control de versiones:** Git y GitHub
-
----
-
-<div align="center">
-
-**Nombre Completo** · @usuario-de-github
-
-Portafolio elaborado durante el módulo CSTI12010 · Instituto Nacional de Aprendizaje · 2026
-
-_Repositorio privado. Todo el contenido es de mi autoría; cuando uso material de otra fuente, la cito._
-
-</div>
+<p><em>(Sustituir por capturas propias. Se recomienda incluir de tres a seis imágenes representativas: un algoritmo en PSeInt y varios programas en
