@@ -87,7 +87,7 @@ Las capturas de pantalla van en la subcarpeta `capturas/` de cada sesión
 
 | Sesión | Tema                                              | Qué aprendí                            |                Evidencia                 | Estado |
 | :----: | :------------------------------------------------ | :------------------------------------- | :--------------------------------------: | :----: |
-|  S01   | Lógica computacional, compilador e intérprete     | _(escribir aquí con palabras propias)_ |             [ver](UA1/S01/)              |   ⬜   |
+|  S01   | Lógica computacional, compilador e intérprete     | _(escribir aquí con palabras propias)_ |             [ver](UA1/S01/)              |   ✅   |
 |  S02   | Algoritmos y pseudocódigo                         |                                        |             [ver](UA1/S02/)              |   ⬜   |
 |  S03   | Lenguajes de alto y bajo nivel                    |                                        |             [ver](UA1/S03/)              |   ⬜   |
 |  S04   | Metodología de solución de problemas              |                                        |             [ver](UA1/S04/)              |   ⬜   |
@@ -108,7 +108,7 @@ Las capturas de pantalla van en la subcarpeta `capturas/` de cada sesión
 
 | Sesión  | Tema                                         | Qué aprendí |                  Evidencia                   | Estado |
 | :-----: | :------------------------------------------- | :---------- | :------------------------------------------: | :----: |
-|   S14   | Sistemas numéricos                           |             |               [ver](UA2/S14/)                |   ⬜   |
+|   S14   | Sistemas numéricos                           |comprender y utilizar los sistemas numéricos en C, aprendiendo a representar y convertir valores entre sistemas decimal, binario, octal y hexadecimal mediante ejercicios prácticos de programación.             |               [ver](UA2/S15-6-10-2026/DecimalABinario.c)                |   ✅   |
 |   S15   | Control de versiones con git y GitHub        |             |               [ver](UA2/S15/)                |   ⬜   |
 |   S16   | Formato de un programa en C y compilación    |             |               [ver](UA2/S16/)                |   ⬜   |
 |   S17   | Variables, constantes y entrada/salida       |             |               [ver](UA2/S17/)                |   ⬜   |
