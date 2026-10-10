@@ -219,19 +219,73 @@ git push                                   # 6. subir a GitHub</code></pre>
     <tbody>
       <tr>
         <td align="center">S14</td>
-        <td>Sistemas numéricos</td>
-        <td>comprender y utilizar los sistemas numéricos en C, aprendiendo a representar y convertir valores entre sistemas decimal, binario, octal y hexadecimal mediante ejercicios prácticos de programación.</td>
-        <td align="center"><a href="UA2/S15-6-10-2026/DecimalABinario.c">ver</a></td>
+        <td align="center">Sistemas numéricos</td>
+        <td align="center">comprender y utilizar los sistemas numéricos en C, aprendiendo a representar y convertir valores entre sistemas decimal, binario, octal y hexadecimal mediante ejercicios prácticos de programación.</td>
+        <td align="center"><a href="UA2/S14-5-10-2026/Sistemas-numéricosEstd.pdf">ver</a></td>
         <td align="center">✅</td></tr>
-      <tr><td align="center">S15</td><td>Control de versiones con git y GitHub</td><td></td><td align="center"><a href="UA2/S15/">ver</a></td><td align="center">⬜</td></tr>
-      <tr><td align="center">S16</td><td>Formato de un programa en C y compilación</td><td></td><td align="center"><a href="UA2/S16/">ver</a></td><td align="center">⬜</td></tr>
-      <tr><td align="center">S17</td><td>Variables, constantes y entrada/salida</td><td></td><td align="center"><a href="UA2/S17/">ver</a></td><td align="center">⬜</td></tr>
-      <tr><td align="center">S18</td><td>Operadores, casting e if … else</td><td></td><td align="center"><a href="UA2/S18/">ver</a></td><td align="center">⬜</td></tr>
-      <tr><td align="center">S19</td><td>Ciclos y switch</td><td></td><td align="center"><a href="UA2/S19/">ver</a></td><td align="center">⬜</td></tr>
-      <tr><td align="center">S20</td><td>Arreglos, matrices y cadenas</td><td></td><td align="center"><a href="UA2/S20/">ver</a></td><td align="center">⬜</td></tr>
-      <tr><td align="center">S21</td><td>Funciones</td><td></td><td align="center"><a href="UA2/S21/">ver</a></td><td align="center">⬜</td></tr>
-      <tr><td align="center">S22</td><td>Paso de parámetros por valor y por dirección</td><td></td><td align="center"><a href="UA2/S22/">ver</a></td><td align="center">⬜</td></tr>
-      <tr><td align="center">S23–S24</td><td><strong>Actividad de comprobación 2</strong></td><td></td><td align="center"><a href="actividades/A2_Mi_primera_aplicacion/">ver</a></td><td align="center">⬜</td></tr>
+      <tr>
+        <td align="center">S15</td>
+        <td align="center">Control de versiones con git y GitHub</td>
+        <td align="center">Utilizar Git y GitHub para gestionar el control de versiones de proyectos, aprendiendo a crear repositorios, registrar cambios, crear y cambiar entre ramas, realizar commits y compartir código, lo que me permitió mantener mis trabajos organizados y facilitar la colaboración en el desarrollo de software.</td>
+        <td align="center"><a href="UA2/S15-5-10-2026/S15_Conceptos_del_dia_EstudiantesGit-G.pdf">ver</a></td>
+        <td align="center">✅</td>
+      </tr>
+      <tr>
+        <td align="center">S16</td>
+        <td align="center">Formato de un programa en C y compilación</td>
+        <td align="center">A estructurar programas en C y comprender el proceso de compilación, aprendiendo a utilizar bibliotecas, declarar la función principal main(), escribir instrucciones correctamente y detectar errores para convertir el código fuente en un programa ejecutable.</td>
+        <td align="center"><a href="UA2/S15-5-10-2026/UA2_Guia_instalacion_entorno_C.pdf">ver</a></td>
+        <td align="center">✅</td>
+      </tr>
+      <tr>
+        <td align="center">S17</td>
+          <td align="center">Variables, constantes y entrada/salida</td>
+          <td align="center">A utilizar variables, constantes y operaciones de entrada y salida en programación en C, aprendiendo a almacenar datos, manejar valores que no cambian y permitir la interacción entre el usuario y el programa mediante instrucciones como printf() y scanf().</td>
+          <td align="center"><a href="UA2/S17-8-10-2026/S17_Presentacion_Variables_tipos_ES.pdf">ver</a></td>
+          <td align="center">✅</td>
+        </tr>
+      <tr>
+        <td align="center">S18</td>
+        <td align="center">Operadores, casting e if … else</td>
+        <td align="center">A utilizar operadores, conversiones de tipos de datos (casting) y estructuras condicionales if...else en C, aprendiendo a realizar operaciones, convertir valores y tomar decisiones dentro de un programa para resolver problemas de manera lógica y eficiente.</td>
+        <td align="center"><a href="UA2/S18-9-10-2026/S18_Presentacion_Operadores_if_else.pdf">ver</a></td>
+        <td align="center">✅</td>
+      </tr>
+      <tr>
+        <td align="center">S19</td>
+        <td align="center">Ciclos y switch</td>
+        <td align="center"></td>
+        <td align="center"><a href="UA2/S19/">ver</a></td>
+        <td align="center">✅</td>
+      </tr>
+      <tr>
+        <td align="center">S20</td>
+        <td align="center">Arreglos, matrices y cadenas</td>
+        <td align="center"></td>
+        <td align="center"><a href="UA2/S20/">ver</a></td>
+        <td align="center">⬜</td>
+      </tr>
+      <tr>
+        <td align="center">S21</td>
+        <td align="center">Funciones</td>
+        <td align="center"></td>
+        <td align="center"><a href="UA2/S21/">ver</a></td>
+        <td align="center">⬜</td>
+      </tr>
+      <tr>
+        <td align="center">S22</td>
+        <td align="center">Paso de parámetros por valor y por dirección</td>
+        <td align="center"></td>
+        <td align="center"><a href="UA2/S22/">ver</a></td>
+        <td align="center">⬜</td>
+      </tr>
+      <tr>
+        <td align="center">S23–S24</td>
+        <td align="center"><strong>Actividad de comprobación 2</strong></td>
+        <td align="center"></td>
+        <td align="center"><a href="actividades/A2_Mi_primera_aplicacion/">ver</a></td>
+        <td align="center">⬜</td>
+      </tr>
     </tbody>
   </table>
 </details>
@@ -250,7 +304,13 @@ git push                                   # 6. subir a GitHub</code></pre>
       </tr>
     </thead>
     <tbody>
-      <tr><td></td><td>_(las filas se agregan al iniciar la UA3)_</td><td></td><td></td><td></td></tr>
+      <tr>
+        <td></td>
+        <td>_(las filas se agregan al iniciar la UA3)_</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
 </details>
@@ -269,9 +329,24 @@ git push                                   # 6. subir a GitHub</code></pre>
     </tr>
   </thead>
   <tbody>
-    <tr><td>A1 · Análisis y solución de un problema específico</td><td><a href="actividades/A1_Analisis_problema/">ver</a></td><td align="center">—</td><td></td></tr>
-    <tr><td>A2 · Mi primera aplicación</td><td><a href="actividades/A2_Mi_primera_aplicacion/">ver</a></td><td align="center"><code>A2-oportunidad-1</code></td><td></td></tr>
-    <tr><td>A3 · Sistema con almacenamiento de datos</td><td><a href="actividades/A3_Sistema_almacenamiento/">ver</a></td><td align="center"><code>A3-oportunidad-1</code></td><td></td></tr>
+    <tr>
+      <td align="center">A1 · Análisis y solución de un problema específico</td>
+      <td align="center"><a href="UA1/COMPROBACION/AC1_Instrucciones_Greivin_Montero_Contreras_01-10-2026.pdf">ver</a></td>
+      <td align="center">A1-oportunidad-1</td>
+      <td align="center">✅</td>
+    </tr>
+    <tr>
+      <td align="center">A2 · Mi primera aplicación</td>
+      <td align="center"><a href="actividades/A2_Mi_primera_aplicacion/">ver</a></td>
+      <td align="center"><code>A2-oportunidad-1</code></td>
+      <td align="center">✅</td>
+    </tr>
+    <tr>
+      <td align="center">A3 · Sistema con almacenamiento de datos</td>
+      <td align="center"><a href="actividades/A3_Sistema_almacenamiento/">ver</a></td>
+      <td align="center"><code>A3-oportunidad-1</code></td>
+      <td align="center">✅</td>
+    </tr>
   </tbody>
 </table>
 
