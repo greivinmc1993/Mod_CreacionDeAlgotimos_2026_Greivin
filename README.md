@@ -110,77 +110,95 @@ git push                                   # 6. subir a GitHub</code></pre>
     <tbody>
       <tr>
         <td align="center">S01</td>
-        <td>Lógica computacional, compilador e intérprete</td>
-        <td>Comprender la lógica computacional y el funcionamiento de los compiladores e intérpretes en C, aprendiendo a desarrollar algoritmos, organizar instrucciones y reconocer cómo se traduce y ejecuta el código para resolver problemas mediante ejercicios prácticos de programación.</td>
+        <td align="center">Lógica computacional, compilador e intérprete</td>
+        <td align="center">Comprender la lógica computacional y el funcionamiento de los compiladores e intérpretes en C, aprendiendo a desarrollar algoritmos, organizar instrucciones y reconocer cómo se traduce y ejecuta el código para resolver problemas mediante ejercicios prácticos de programación.</td>
         <td align="center"><a href="UA1/CLASE 1 16-9-2026/S01_Presentacion_Introduccion.pdf">ver</a></td>
         <td align="center">✅</td>
       </tr>
       <tr>
         <td align="center">S02</td>
-        <td>Algoritmos y pseudocódigo</td>
-        <td>Diseñar algoritmos y representar soluciones mediante pseudocódigo utilizando PSeInt</td>
+        <td align="center">Algoritmos y pseudocódigo</td>
+        <td align="center">Diseñar algoritmos y representar soluciones mediante pseudocódigo utilizando PSeInt</td>
         <td align="center"><a href="UA1/S3-18-9-2026/3.Algoritmos_Presentacion2026.pdf">ver</a></td>
         <td align="center">✅</td>
       </tr>
       <tr>
         <td align="center">S03</td>
-        <td>Lenguajes de alto y bajo nivel</td>
+        <td align="center">Lenguajes de alto y bajo nivel</td>
         <td align="center">Identificar las diferencias entre los lenguajes de programación de alto y bajo nivel, comprendiendo sus características, ventajas y usos, así como la forma en que permiten comunicarse con la computadora y desarrollar programas según las necesidades de cada proyecto.</td>
         <td align="center"><a href="UA1/">ver</a></td>
         <td align="center">✅</td>
       </tr>
       <tr>
         <td align="center">S04</td>
-        <td>Metodología de solución de problemas</td>
-        <td>Aplicar una metodología ordenada para identificar, analizar y resolver problemas, aprendiendo a comprender las necesidades, proponer soluciones, diseñar algoritmos, realizar pruebas y corregir errores para obtener resultados eficientes mediante la lógica y el pensamiento computacional.</td>
+        <td align="center">Metodología de solución de problemas</td>
+        <td align="center">Aplicar una metodología ordenada para identificar, analizar y resolver problemas, aprendiendo a comprender las necesidades, proponer soluciones, diseñar algoritmos, realizar pruebas y corregir errores para obtener resultados eficientes mediante la lógica y el pensamiento computacional.</td>
         <td align="center"><a href="UA1/S3-18-9-2026/4.Metodologías de solución de problemas.pdf">ver</a></td>
         <td align="center">✅</td>
       </tr>
       <tr>
         <td align="center">S05</td>
-        <td>Entrada, proceso, salida y tipos de datos</td>
-        <td>Identificar y utilizar las entradas, los procesos y las salidas de un programa, comprendiendo los diferentes tipos de datos en C, como enteros, decimales y caracteres, para desarrollar programas que procesen información correctamente y resuelvan problemas mediante ejercicios prácticos de programación.</td>
+        <td align="center">Entrada, proceso, salida y tipos de datos</td>
+        <td align="center">Identificar y utilizar las entradas, los procesos y las salidas de un programa, comprendiendo los diferentes tipos de datos en C, como enteros, decimales y caracteres, para desarrollar programas que procesen información correctamente y resuelvan problemas mediante ejercicios prácticos de programación.</td>
         <td align="center"><a href="UA1/S3-18-9-2026/3.Algoritmos_Presentacion2026.pdf">ver</a></td>
         <td align="center">✅</td>
       </tr>
       <tr>
         <td align="center">S06</td>
-        <td>Constantes, variables y expresiones</td>
-        <td>Las variables actúan como contenedores dinámicos que aportan flexibilidad, mientras que las constantes establecen límites fijos y seguros. Las expresiones son el puente que las combina para generar acciones.</td>
+        <td align="center">Constantes, variables y expresiones</td>
+        <td align="center">Las variables actúan como contenedores dinámicos que aportan flexibilidad, mientras que las constantes establecen límites fijos y seguros. Las expresiones son el puente que las combina para generar acciones.</td>
         <td align="center"><a href="UA1/S3-18-9-2026/3.Algoritmos_Presentacion2026.pdf">ver</a></td>
         <td align="center">✅</td>
       </tr>
       <tr>
         <td align="center">S07</td>
-        <td>Contadores y acumuladores</td>
-        <td>En C, los contadores marcan el paso constante de nuestros bucles, mientras los acumuladores recolectan los resultados del proceso. Ambos nos enseñan una regla de oro insustituible: para sumar grandes cosas, siempre debemos empezar desde cero.</td>
+        <td align="center">Contadores y acumuladores</td>
+        <td align="center">En C, los contadores marcan el paso constante de nuestros bucles, mientras los acumuladores recolectan los resultados del proceso. Ambos nos enseñan una regla de oro insustituible: para sumar grandes cosas, siempre debemos empezar desde cero.</td>
         <td align="center"><a href="UA1/S3-18-9-2026/3.Algoritmos_Presentacion2026.pdf">ver</a></td>
         <td align="center">✅</td>
       </tr>
       <tr>
         <td align="center">S08</td>
-        <td>Expresiones aritméticas, relacionales y lógicas</td>
-        <td>Las expresiones son la mente de tu programa: las aritméticas calculan, las relacionales comparan y las lógicas deciden.</td>
+        <td align="center">Expresiones aritméticas, relacionales y lógicas</td>
+        <td align="center">Las expresiones son la mente de tu programa: las aritméticas calculan, las relacionales comparan y las lógicas deciden.</td>
         <td align="center"><a href="UA1/S3-18-9-2026/3.Algoritmos_Presentacion2026.pdf">ver</a></td>
         <td align="center">✅</td>
       </tr>
       <tr>
         <td align="center">S09</td>
-        <td>Operadores aritméticos y prioridad</td>
-        <td>Usar correctamente los operadores aritméticos en programación, comprendiendo las operaciones de suma, resta, multiplicación, división y módulo, así como la prioridad de los operadores para desarrollar expresiones matemáticas y resolver problemas de manera precisa en C.</td>
+        <td align="center">Operadores aritméticos y prioridad</td>
+        <td align="center">Usar correctamente los operadores aritméticos en programación, comprendiendo las operaciones de suma, resta, multiplicación, división y módulo, así como la prioridad de los operadores para desarrollar expresiones matemáticas y resolver problemas de manera precisa en C.</td>
         <td align="center"><a href="UA1/S3-18-9-2026/3.Algoritmos_Presentacion2026.pdf">ver</a></td>
         <td align="center">✅</td>
       </tr>
       <tr>
         <td align="center">S10</td>
-        <td>Decisión simple y doble</td>
-        <td>Usar estructuras de decisión simple y doble en programación, aprendiendo a evaluar condiciones y ejecutar diferentes instrucciones según los resultados para resolver problemas de manera lógica y eficiente mediante ejercicios prácticos en C y PSeInt</td>
+        <td align="center">Decisión simple y doble</td>
+        <td align="center">Usar estructuras de decisión simple y doble en programación, aprendiendo a evaluar condiciones y ejecutar diferentes instrucciones según los resultados para resolver problemas de manera lógica y eficiente mediante ejercicios prácticos en C y PSeInt</td>
         <td align="center"><a href="UA1/S3-18-9-2026/S03_Presentacion_Decisiones.pdf">ver</a></td>
         <td align="center">✅</td>
       </tr>
-      <tr><td align="center">S11</td><td>Operadores lógicos, decisiones compuestas y Según</td><td></td><td align="center"><a href="UA1/S11/">ver</a></td><td align="center">⬜</td></tr>
-      <tr><td align="center">S12</td><td>Ciclos, validación de datos e informe</td><td></td><td align="center"><a href="UA1/S12/">ver</a></td><td align="center">⬜</td></tr>
-      <tr><td align="center">S13</td><td><strong>Actividad de comprobación 1</strong></td><td></td><td align="center"><a href="actividades/A1_Analisis_problema/">ver</a></td><td align="center">⬜</td></tr>
+      <tr>
+        <td align="center">S11</td>
+        <td align="center">Operadores lógicos, decisiones compuestas y Según</td>
+        <td align="center">Usar operadores lógicos y estructuras de decisión compuestas y la instrucción Según en programación, aprendiendo a evaluar condiciones, tomar decisiones y crear soluciones más organizadas y eficientes mediante ejercicios prácticos en C.</td>
+        <td align="center"><a href="UA1/S3-18-9-2026/S03_Presentacion_Decisiones.pdf">ver</a></td>
+        <td align="center">✅</td>
+      </tr>
+      <tr>
+        <td align="center">S12</td>
+        <td>Ciclos, validación de datos e informe</td>
+        <td>Usar utilizar ciclos y validaciones de datos en programación para controlar la repetición de instrucciones, verificar que la información ingresada sea correcta y generar informes organizados, aplicando la lógica computacional para desarrollar programas más confiables y eficientes.</td>
+        <td align="center"><a href="UA1/S4-21-9-2026/Conceptos_S04_Repeticion_Estudiantes.pdf">ver</a><a href="UA1/S5-22-9-2026/Conceptos_S05_Para_Estudiantes.pdf">ver</a></td>
+        <td align="center">✅</td>
+      </tr>
+      <tr>
+        <td align="center">S13</td>
+        <td align="center"><strong>Actividad de comprobación 1</strong></td>
+        <td align="center"></td>
+        <td align="center"><a href="UA1/COMPROBACION/AC1_Instrucciones_Greivin_Montero_Contreras_01-10-2026.pdf">ver</a></td>
+        <td align="center">✅</td>
+        </tr>
     </tbody>
   </table>
 </details>
