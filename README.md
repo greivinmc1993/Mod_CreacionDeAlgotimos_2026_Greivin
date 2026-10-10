@@ -94,7 +94,7 @@ git push                                   # 6. subir a GitHub</code></pre>
 
 <h2>📋 Registro de evidencias</h2>
 
-<details open>
+<details>
   <summary><strong>Unidad 1 · Elaboración de algoritmos en PSeInt</strong> (sesiones 1 a 13)</summary>
 
   <table>
