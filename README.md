@@ -61,13 +61,14 @@
   </tbody>
 </table>
 
-<details>
+<details open>
   <summary><strong>Rutina de cada día</strong></summary>
 
-  <pre><code>git pull                                   # 1. traer lo más reciente
-# 2. trabajar en la carpeta de la sesión (UA2/S18/...) y completar su README.md
+  <pre><code>
+git pull                                   # 1. traer lo más reciente
 git status                                 # 3. revisar qué cambió
 git add .                                  # 4. preparar los cambios
+actualizar readme.md                       # 2. trabajar en la carpeta de la sesión (UA2/S18/...) y completar su README.md
 git commit -m "S18: agrega credito.c"      # 5. registrar con el formato SXX: verbo + qué
 git push                                   # 6. subir a GitHub</code></pre>
 
