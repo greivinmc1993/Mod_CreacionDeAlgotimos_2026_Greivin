@@ -66,9 +66,9 @@
 
   <pre><code>
 git pull                                   # 1. traer lo más reciente
-git status                                 # 2. revisar qué cambió
-git add .                                  # 3. preparar los cambios
-actualizar readme.md                       # 4. trabajar en la carpeta de la sesión y completar su README.md
+actualizar readme.md                       # 2. trabajar en la carpeta de la sesión y completar su README.md
+git status                                 # 3. revisar qué cambió
+git add .                                  # 4. preparar los cambios
 git commit -m "S18: agrega credito.c"      # 5. registrar con el formato SXX: verbo + qué
 git push                                   # 6. subir a GitHub</code></pre>
 
