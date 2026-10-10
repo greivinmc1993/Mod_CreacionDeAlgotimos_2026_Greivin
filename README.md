@@ -189,7 +189,7 @@ git push                                   # 6. subir a GitHub</code></pre>
         <td align="center">S12</td>
         <td>Ciclos, validación de datos e informe</td>
         <td>Usar utilizar ciclos y validaciones de datos en programación para controlar la repetición de instrucciones, verificar que la información ingresada sea correcta y generar informes organizados, aplicando la lógica computacional para desarrollar programas más confiables y eficientes.</td>
-        <td align="center"><a href="UA1/S4-21-9-2026/Conceptos_S04_Repeticion_Estudiantes.pdf">ver</a><a href="UA1/S5-22-9-2026/Conceptos_S05_Para_Estudiantes.pdf">ver</a></td>
+        <td align="center"><a href="UA1/S4-21-9-2026/Conceptos_S04_Repeticion_Estudiantes.pdf">ver</a>---<a href="UA1/S5-22-9-2026/Conceptos_S05_Para_Estudiantes.pdf">ver</a></td>
         <td align="center">✅</td>
       </tr>
       <tr>
