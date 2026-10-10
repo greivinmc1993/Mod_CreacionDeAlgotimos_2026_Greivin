@@ -94,7 +94,7 @@ git push                                   # 6. subir a GitHub</code></pre>
 
 <h2>📋 Registro de evidencias</h2>
 
-<details>
+<details open>
   <summary><strong>Unidad 1 · Elaboración de algoritmos en PSeInt</strong> (sesiones 1 a 13)</summary>
 
   <table>
@@ -188,7 +188,7 @@ git push                                   # 6. subir a GitHub</code></pre>
       <tr>
         <td align="center">S12</td>
         <td align="center">Ciclos, validación de datos e informe</td>
-        <td align="center">Usar utilizar ciclos y validaciones de datos en programación para controlar la repetición de instrucciones, verificar que la información ingresada sea correcta y generar informes organizados, aplicando la lógica computacional para desarrollar programas más confiables y eficientes.</td>
+        <td align="center">A utilizar ciclos y validaciones de datos en programación para controlar la repetición de instrucciones, verificar que la información ingresada sea correcta y generar informes organizados, aplicando la lógica computacional para desarrollar programas más confiables y eficientes.</td>
         <td align="center"><a href="UA1/S4-21-9-2026/Conceptos_S04_Repeticion_Estudiantes.pdf">ver</a>---<a href="UA1/S5-22-9-2026/Conceptos_S05_Para_Estudiantes.pdf">ver</a></td>
         <td align="center">✅</td>
       </tr>
@@ -220,7 +220,7 @@ git push                                   # 6. subir a GitHub</code></pre>
       <tr>
         <td align="center">S14</td>
         <td align="center">Sistemas numéricos</td>
-        <td align="center">comprender y utilizar los sistemas numéricos en C, aprendiendo a representar y convertir valores entre sistemas decimal, binario, octal y hexadecimal mediante ejercicios prácticos de programación.</td>
+        <td align="center">A comprender y utilizar los sistemas numéricos en C, aprendiendo a representar y convertir valores entre sistemas decimal, binario, octal y hexadecimal mediante ejercicios prácticos de programación.</td>
         <td align="center"><a href="UA2/S14-5-10-2026/Sistemas-numéricosEstd.pdf">ver</a></td>
         <td align="center">✅</td></tr>
       <tr>
