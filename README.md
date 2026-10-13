@@ -255,37 +255,37 @@ git push                                   # 6. subir a GitHub</code></pre>
       <tr>
         <td align="center">S19</td>
         <td align="center">Ciclos y switch</td>
-        <td align="center"></td>
-        <td align="center"><a href="UA2/S19/">ver</a></td>
+        <td align="center">Autilizar ciclos y la estructura switch en programación, aprendiendo a repetir instrucciones mediante estructuras como for, while y do while, así como a ejecutar diferentes acciones según una opción seleccionada, aplicando estos conocimientos en ejercicios prácticos con C para resolver problemas de manera organizada y eficiente.</td>
+        <td align="center"><a href="UA2/S19-12-10-2026/S19_Presentacion_Ciclos_switch.pdf">ver</a></td>
         <td align="center">✅</td>
       </tr>
       <tr>
         <td align="center">S20</td>
         <td align="center">Arreglos, matrices y cadenas</td>
-        <td align="center"></td>
+        <td align="center">A utilizar arreglos, matrices y cadenas en programación, aprendiendo a almacenar, organizar y manipular diferentes tipos de datos en C para resolver problemas mediante ejercicios prácticos que me ayudaron a mejorar mi lógica y mis habilidades de programación.</td>
         <td align="center"><a href="UA2/S20/">ver</a></td>
-        <td align="center">⬜</td>
+        <td align="center">✅</td>
       </tr>
       <tr>
         <td align="center">S21</td>
         <td align="center">Funciones</td>
-        <td align="center"></td>
+        <td align="center">A crear y utilizar funciones en programación, aprendiendo a dividir un programa en bloques de código reutilizables, organizar mejor las instrucciones, recibir parámetros y devolver resultados para resolver problemas de manera más ordenada y eficiente.</td>
         <td align="center"><a href="UA2/S21/">ver</a></td>
-        <td align="center">⬜</td>
+        <td align="center">✅</td>
       </tr>
       <tr>
         <td align="center">S22</td>
         <td align="center">Paso de parámetros por valor y por dirección</td>
-        <td align="center"></td>
+        <td align="center">A comprender cómo se pasan parámetros por valor y por dirección en la programación en C, aprendiendo a diferenciar cuándo una función trabaja con una copia de una variable y cuándo puede modificar su valor original mediante el uso de punteros, aplicando estos conocimientos en ejercicios prácticos para mejorar la organización y el funcionamiento de los programas.</td>
         <td align="center"><a href="UA2/S22/">ver</a></td>
-        <td align="center">⬜</td>
+        <td align="center">✅</td>
       </tr>
       <tr>
         <td align="center">S23–S24</td>
         <td align="center"><strong>Actividad de comprobación 2</strong></td>
         <td align="center"></td>
         <td align="center"><a href="actividades/A2_Mi_primera_aplicacion/">ver</a></td>
-        <td align="center">⬜</td>
+        <td align="center">✅</td>
       </tr>
     </tbody>
   </table>
