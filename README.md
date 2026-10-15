@@ -263,7 +263,7 @@ git push                                   # 6. subir a GitHub</code></pre>
         <td align="center">S20</td>
         <td align="center">Arreglos, matrices y cadenas</td>
         <td align="center">A utilizar arreglos, matrices y cadenas en programación, aprendiendo a almacenar, organizar y manipular diferentes tipos de datos en C para resolver problemas mediante ejercicios prácticos que me ayudaron a mejorar mi lógica y mis habilidades de programación.</td>
-        <td align="center"><a href="UA2/S20/">ver</a></td>
+        <td align="center"><a href="UA2/S20-14-10-2026/S20_Presentacion_Arreglos_cadenas.pdf">ver</a></td>
         <td align="center">✅</td>
       </tr>
       <tr>

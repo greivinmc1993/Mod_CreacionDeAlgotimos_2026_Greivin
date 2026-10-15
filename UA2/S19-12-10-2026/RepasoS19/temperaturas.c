@@ -31,11 +31,13 @@ int main(void) {
         do {
             printf("Temperatura dia %d: ", i);
             scanf("%d", &temp);
-            if (temp < MINIMA || temp > MAXIMA)
+            if (temp < MINIMA || temp > MAXIMA){
                 printf("  Fuera de rango (%d a %d)\n", MINIMA, MAXIMA);
+            }
+                
         } while (temp <= MINIMA || temp >= MAXIMA);//! LA CONDICION
 
-        suma = suma + temp;     //! UN ; HACE FALTA      // acumula -> 28, 59, 88, ...
+        suma = suma + temp;     //! */ UN ; HACE FALTA      // acumula -> 28, 59, 88, ...
         if (temp > maxima){
             maxima = temp;
         }            // guarda la mayor -> 33 //! LA ESTRUCTURA DE LOS IF
@@ -46,7 +48,7 @@ int main(void) {
             
     }
 
-    promedio = suma / DIAS;           // 204 / 7 -> 29.142857
+    promedio = (double) suma / DIAS;           // 204 / 7 -> 29.142857
     printf("\nPromedio: %.1f grados\n", promedio);
     printf("Maxima: %d grados\n", maxima);
     printf("Dias calurosos: %d\n", calurosos);
