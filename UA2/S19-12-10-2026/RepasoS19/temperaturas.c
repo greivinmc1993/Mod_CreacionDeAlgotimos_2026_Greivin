@@ -52,3 +52,4 @@ int main(void) {
     printf("Dias calurosos: %d\n", calurosos);
     return 0;
 }
+
