@@ -56,7 +56,7 @@ int main(void){
     }
 
     //RECORRIDO POR COLUMNAS EL FOR EXTERNO RECORRE LOS DIAS
-    printf("%-8s" "Dia");
+    printf("%-8s", "Dia");
     for ( d = 0; d < DIAS; d++)
     {
         totalDia = 0;
