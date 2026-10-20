@@ -58,7 +58,7 @@ int main(void) {
     }
     if (encontrada >= 0)
         printf("%s: %d mm en %d meses\n", buscada, totales[encontrada],
-               MESES);
+            MESES);
     else
         printf("Region no encontrada\n");
         
