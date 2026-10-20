@@ -5,7 +5,7 @@
 #define MAX_NOTA 100
 
 int main(void){
-    char nombre[50], condicion[3][20] = {"APROBADO", "EN RIESGO", "NO APROBADO"};
+    char nombre[50], condicion[20];
     int i;
     double promedio, sumaPromedio=0, alta=0, calaficaciones[3];
 
@@ -38,6 +38,7 @@ int main(void){
     //! CALCULOS DE PROMEDIOS
     promedio = sumaPromedio / i;
 
+    //! CALCULO DEL MAYOR
     for (i = 0; i < 3; i++)
     {
         if (calaficaciones[i] > alta)
@@ -45,29 +46,30 @@ int main(void){
             alta = calaficaciones[i];
         }
     }
+
+    //! GUARDADO DE LA CONDICION
+    if (promedio >= 70)
+    {
+        strcpy(condicion, "APROBADO");
+    }
+    else if (promedio < 70 && promedio >= 60)
+    {
+        strcpy(condicion, "ESTA EN RIESGO");
+    }
+    else
+    {
+        strcpy(condicion, "REPROBADO");
+    }
     
+
+    //! SALIDA DE DATOS
     printf("============%s============\n", nombre);
     printf("Calificacion 1: %.2f \n", calaficaciones[0]);
     printf("Calificacion 2: %.2f \n", calaficaciones[1]);
     printf("Calificacion 3: %.2f \n", calaficaciones[2]);
     printf("Promedio: %.2f \n", promedio);
     printf("Nota mas alta: %.2f \n", alta);
-    if (promedio >= 70)
-    {
-        printf("CONDICION: %s", condicion[0]);
-    }
-    else if (promedio < 70 && promedio >= 60)
-    {
-        printf("CONDICION: %s", condicion[1]);
-    }
-    else
-    {
-        printf("CONDICION: %s", condicion[2]);
-    }
-    
-
-
-    
+    printf("CONDICION: %s \n", condicion);
 
 
     return 0;
