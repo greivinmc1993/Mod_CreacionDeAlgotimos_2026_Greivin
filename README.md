@@ -333,12 +333,12 @@ git push                                   # 6. subir a GitHub</code></pre>
     <tr>
       <td align="center">A1 · Análisis y solución de un problema específico</td>
       <td align="center"><a href="UA1/COMPROBACION/AC1_Instrucciones_Greivin_Montero_Contreras_01-10-2026.pdf">ver</a></td>
-      <td align="center">A1-oportunidad-1</td>
+      <td align="center"><code>A1-oportunidad-1</code></td>
       <td align="center">✅</td>
     </tr>
     <tr>
       <td align="center">A2 · Mi primera aplicación</td>
-      <td align="center"><a href="actividades/A2_Mi_primera_aplicacion/">ver</a></td>
+      <td align="center"><a href="UA2/AC2/AC2_Instrucciones_EstudiantesAC2.pdf">ver</a></td>
       <td align="center"><code>A2-oportunidad-1</code></td>
       <td align="center">✅</td>
     </tr>
