@@ -284,7 +284,7 @@ git push                                   # 6. subir a GitHub</code></pre>
         <td align="center">S23–S24</td>
         <td align="center"><strong>Actividad de comprobación 2</strong></td>
         <td align="center"></td>
-        <td align="center"><a href="actividades/A2_Mi_primera_aplicacion/">ver</a></td>
+        <td align="center"><a href="UA2/AC2/AC2_Instrucciones_EstudiantesAC2.pdf">ver</a></td>
         <td align="center">✅</td>
       </tr>
     </tbody>
