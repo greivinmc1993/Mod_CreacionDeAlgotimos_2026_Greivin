@@ -51,13 +51,53 @@ int main(void){
 
         } while (cantidades[i] < 0);
 
-//!-----------------CALCULAR EL SUBTOTAL DEL PRODUCTO---------------------------------  
+//!-----------------CALCULAR EL SUBTOTAL DEL PRODUCTO---------------------------------
+
+        subtotalProdu = precios[i] * cantidades[i];
+
         printf("El subtotal del prodcuto es %.2f", subtotalProdu);
 
+
+//!-----------------CALCULAR EL SUBTOTAL DE LA COMPRA---------------------------------  
+
+        subtotal = subtotal + subtotalProdu;
+
+//!-----------------CALCULAR DE PRODUCOTS INGRESADOS----------------------------------
+        totalProductos++;
+        i++;
+
+//!-----------------CLIMPIAR SALTOS DE LINEA------------------------------------------
+        while (getchar() != '\n')
+        {
+            /* code */
+        }
+
+//!-----------------PREGUNTAR SI QUIERE AGREGAR MAS-----------------------------------
+        if (totalProductos < MAX_PRODUCTOS)
+        {
+            do
+            {
+                printf("Desea seguir S - N: ");
+                scanf("%c", &respuesta);
+
+                if (respuesta != 'S' && respuesta != 's' && respuesta != 'N' && respuesta != 'n')
+                {
+                    printf("Formato no valido");
+                }
+                
+
+
+            } while (respuesta != 'S' && respuesta != 's' && respuesta != 'N' && respuesta != 'n');
+            
+
+        }
+        
         
 
-    } while (condition);
+    } while ((respuesta == 'S' || respuesta == 's') && totalProductos < MAX_PRODUCTOS);
     
+
+//!-----------------PREGUNTAR SI QUIERE AGREGAR MAS-----------------------------------    
 
 
     return 0;

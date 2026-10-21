@@ -28,12 +28,12 @@
 
 | Datos de entrada | Proceso | Datos de salida | Limitaciones |
 | ---------------- | ------- | --------------- | ------------ |
-|                  |         |                 |              |
+| *nombre, productos y precios*  | *registar todos los productos y precios preguntar si desea continuar y hacer los calculos de totales , descuentos e impuestos* | *totales, descuentos, desglose, subtotal, total, cantidades totales, etc*                | *no poner nombre de productos, precios negativos, no poner el nombre*             |
 
 **Ejecución con los datos del ejemplo:**
 
-![Ejecución](captura_p.png)
-![Ejecución](captura_p.png)
+![Ejecución](AC2_P3_Compras.png)
+
 
 ## Conclusión
 
