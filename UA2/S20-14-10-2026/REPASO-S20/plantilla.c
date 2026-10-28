@@ -1,26 +1,16 @@
-/* temperaturas.c -  Temperaturas de la semana
+/* NOMBRE.c -  TITULO
 ==========================================================================
 * ENUNCIADO:
-    Solicitar temperatura maxima del dia, mostrar el nombre del dia: lunes a domingo.(0-45°C)
-    Si esta fuera de rango vuelve a pedir el valor.
-    Guardarlas en un arreglo de 7 posiciones.
-    Calcular el promedio de la semana
+    DESCRIBA ENUNCIADO
 
 * QUÉ SE LOGRA:
-    Encontrar el dia más caluroso.
-    El promedio.
+    PONGA QUE SE LOGRA DE FORMA PUNTUAL
 
 * CÓMO SE LOGRA:
-    -do-while para validar el rango de temperatura aceptada
-    -Arreglo para guardar temperaturas
-    -for para sacar al mas caluros
-    -for para recorrer los dias
+    PONGA COMO SE LOGRA DE FORMA PUNTUAL
 
 * RESULTADO ESPERADO:
-    Muestra la temperatura de cada dia.
-    El promedio de temperatura (float: dos decimales)
-    El dia mas caluroso
-    La lista de dias que superaron el promedio con su cantidad
+    PONGA RESULTADO ESPERADO DE FORMA PUNTUAL
 ========================================================================== */
 
 //! LIBRERIAS VISTAS
