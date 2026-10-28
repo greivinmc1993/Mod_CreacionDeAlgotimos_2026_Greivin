@@ -51,7 +51,7 @@ int main(void)
     int notas[4][3];
 
     // Arreglo con los nombres de los estudiantes
-    char nombres[4][15];
+    char nombres[4][50];
 
     // Arreglo con el promedio de cada estudiante
     float prom[4];
@@ -72,7 +72,7 @@ int main(void)
     int mejorEstudiante = 0;
 
     // Nombre que se desea buscar
-    char buscar[15];
+    char buscar[50];
 
     // Condicion del estudiante: aprobado o no aprobado
     char condicion[20];

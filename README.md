@@ -270,7 +270,7 @@ git push                                   # 6. subir a GitHub</code></pre>
         <td align="center">S21</td>
         <td align="center">Funciones</td>
         <td align="center">A crear y utilizar funciones en programación, aprendiendo a dividir un programa en bloques de código reutilizables, organizar mejor las instrucciones, recibir parámetros y devolver resultados para resolver problemas de manera más ordenada y eficiente.</td>
-        <td align="center"><a href="UA2/S21/">ver</a></td>
+        <td align="center"><a href="UA2/S21-26-10-2026/S21_Presentacion_Funciones.pdf">ver</a></td>
         <td align="center">✅</td>
       </tr>
       <tr>
