@@ -22,7 +22,7 @@
 
 #define LANZAMIENTOS 600
 
-/* PROTOTIPOS */
+//! PROTOTIPOS
 int lanzarDado(void);
 void mostrarBarra(int cantidad);
 
