@@ -144,8 +144,7 @@ int main(void)
                     printf("Respuesta invalida. Escriba S o N.\n");
                 }
 
-            } while (respuesta != 'S' && respuesta != 's' &&
-                     respuesta != 'N' && respuesta != 'n');
+            } while (respuesta != 'S' && respuesta != 's' && respuesta != 'N' && respuesta != 'n');
 
             // Descartar el Enter despues de leer la respuesta
             while (getchar() != '\n')

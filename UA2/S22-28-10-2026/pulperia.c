@@ -235,3 +235,5 @@ double valorInventario(const double precios[], const int existencias[], int tota
 
     return totalValor; // Devuelve el valor total calculado.
 }
+
+
