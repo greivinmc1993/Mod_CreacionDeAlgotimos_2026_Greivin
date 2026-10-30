@@ -13,7 +13,7 @@
 int leerEntero(const char mensaje[], int minimo, int maximo);
 float precioEntrada(int tipo);
 float calcTotal(int tipo, int cantidad);
-void resumir(const int cant[], const float tot[], int n, float* total, int* posMayor, int* conDescuento);
+void resumir(const int cant[], const float tot[], int n, int* posMayor, int* conDescuento);
 
 //* MAIN
 int main(void){
@@ -51,12 +51,15 @@ int main(void){
 
         //*CALCULAR TOTAL DE LA COMPRA
         totales[i] = calcTotal(tipo, cantidades[i]);
+
+        totalVendido = totalVendido + totales[i];
     }
     
     //* CALCULAR EL RESUMEN EN UNA PASADA
-    resumir(cantidades, totales, n, &totalVendido, &posMayor, &conDescuento);
+    resumir(cantidades, totales, n, &posMayor, &conDescuento);
 
     //* ENCABEZADO DE LA TABLA
+    puts("=====================================");
     printf("\n %-12s %9s %12s\n", "clientes", "cantidades", "totales");
 
     //* RECORRER LAS COMPRAS
@@ -70,13 +73,14 @@ int main(void){
 
 
     //* TOTAL VENDIDO
-        printf("Total vendido: %12.2f\n ", totalVendido);
+        puts("=====================================");
+        printf("\n Total vendido: %12.2f\n ", totalVendido);
 
         //* COMPRA MAYOR
-        printf("Compra mayor: %s %12.2f\n ", clientes[posMayor], totales[posMayor]);
+        printf("\nCompra mayor: %s %12.2f\n ", clientes[posMayor], totales[posMayor]);
 
         //* COMPRAS CON DESCUENTO
-        printf("Con descuento:      %d compras(s)\n \n",conDescuento);
+        printf("\nCon descuento:      %d compras(s)\n \n",conDescuento);
 
     
     //* TERMINA EL MAIN
@@ -131,7 +135,7 @@ float calcTotal(int tipo, int cantidad){
 
     if (cantidad >= PARA_DESCUENTO)
     {
-        total = total * TASA_DESCUENTO;
+        total = total * (1 - TASA_DESCUENTO);
     }
     
     return total;
@@ -139,11 +143,10 @@ float calcTotal(int tipo, int cantidad){
 }
 
 //* DEFINIR RESUMIR
-void resumir(const int cant[], const float tot[], int n, float* total, int* posMayor, int* conDescuento){
+void resumir(const int cant[], const float tot[], int n, int* posMayor, int* conDescuento){
     int i;
     //* INICIALIZA LOS TRES RESULTADOS EN LA MEMORIA DE MAIN
 
-    *total = 0;
     *posMayor = 0;
     *conDescuento = 0;
 
