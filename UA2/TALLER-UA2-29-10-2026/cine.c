@@ -31,8 +31,8 @@ int main(void){
     int posMayor, conDescuento;
 
     //* PORTADA
-    puts("=====VENTA DE ENTRADAS=====");
-    printf("Tipos: 1-General ===> 3500 \n 2-Niños ===> 2500 \n 3-Adulto Mayor ===> 2000");
+    puts("=====VENTA DE ENTRADAS=====\n");
+    printf("Tipos entrada: \n1-General ===> 3500 \n2-Niños ===> 2500 \n3-Adulto Mayor ===> 2000\n");
 
     //* LEER CANTIDAD DE COMPRAS -> 4
     n = leerEntero("\nCantidad de compras\n", 1, MAX_COMPRAS);
