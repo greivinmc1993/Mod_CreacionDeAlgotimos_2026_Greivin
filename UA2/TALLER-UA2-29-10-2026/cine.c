@@ -40,14 +40,14 @@ int main(void){
     //* VUELTA POR COMPRA
     for ( i = 0; i < n; i++)
     {
-        printf("Compras %d\n cliente: \n", i+1);//* NUMERO DE COMPRA Y PEDIDO DEL CLIENTE
+        printf("Compras %d\n cliente: ", i+1);//* NUMERO DE COMPRA Y PEDIDO DEL CLIENTE
         scanf("%14s", clientes[i]);
 
         //* SE LEE EL TIPO DE ENTRADA
         tipo = leerEntero("Ingrese el tipo: ", 1, 3);
 
         //* LEER CANTIDAD DE ENTRADAS
-        cantidades[i] = leerEntero(" Entradas ", 1, 8);
+        cantidades[i] = leerEntero("Entradas ", 1, 8);
 
         //*CALCULAR TOTAL DE LA COMPRA
         totales[i] = calcTotal(tipo, cantidades[i]);
@@ -74,7 +74,7 @@ int main(void){
 
     //* TOTAL VENDIDO
         puts("=====================================");
-        printf("\n Total vendido: %12.2f\n ", totalVendido);
+        printf("\nTotal vendido: %12.2f\n ", totalVendido);
 
         //* COMPRA MAYOR
         printf("\nCompra mayor: %s %12.2f\n ", clientes[posMayor], totales[posMayor]);
