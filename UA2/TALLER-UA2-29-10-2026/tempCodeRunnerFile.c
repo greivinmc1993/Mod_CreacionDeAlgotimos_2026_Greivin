@@ -1,0 +1,1 @@
+printf("Cliente con factura mayor: %s\n", numeros[empate])
