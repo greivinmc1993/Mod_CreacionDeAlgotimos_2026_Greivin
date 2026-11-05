@@ -121,7 +121,7 @@ void limpiarBuffer() {
 int solicitarPlan() {
 
     int plan;
-    int lectura;
+    
 
     do {
 
@@ -132,17 +132,17 @@ int solicitarPlan() {
         printf("3. Plus\n");
 
         printf("Seleccione plan: ");
-        lectura = scanf("%d", &plan);
+        scanf("%d", &plan);
         limpiarBuffer();
 
-        if (lectura != 1) {
+        if (plan < 1 || plan > 3) {
             printf("Debe ingresar un numero.\n");
         }
         else if (plan < 1 || plan > 3) {
             printf("Plan invalido.\n");
         }
 
-    } while (lectura != 1 || plan < 1 || plan > 3);
+    } while (plan < 1 || plan > 3);
 
     return plan;
 }
